@@ -10,7 +10,4 @@ const zip = (...arrays) => {
   };
 };
 
-console.log(...zip([1, 2, 3, 4], ['a', 'b', 'c']));
-console.log(zip([1, 2, 3, 4], ['a', 'b', 'c']));
-
-console.log(...zip([1, 2, 3, 4]));
+module.exports = zip;

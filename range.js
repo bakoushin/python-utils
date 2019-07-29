@@ -8,7 +8,4 @@ function range(from, to, step = 1) {
   };
 }
 
-for (const i of range(0, 10, 2)) console.log(i);
-
-console.log([...range(1, 10)]);
-console.log(range(1, 10));
+module.exports = range;

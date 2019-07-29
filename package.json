@@ -1,0 +1,23 @@
+{
+  "name": "utils",
+  "version": "1.0.0",
+  "description": "",
+  "main": "range.js",
+  "scripts": {
+    "test": "mocha **/**.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/bakoushin/python-utils.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/bakoushin/python-utils/issues"
+  },
+  "homepage": "https://gitlab.com/bakoushin/python-utils#readme",
+  "devDependencies": {
+    "mocha": "^6.2.0"
+  }
+}
